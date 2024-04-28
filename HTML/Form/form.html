@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formulario</title>
+        </head>
+            <body>
+               <header>
+                   <center>
+                       <h1>Formulario en HTML</h1>
+                   </center>
+               </header>
+               
+               <main>
+                 <section class="inf_personal">
+                    <!--Information First-->
+                    <h2>Datos Personales</h2>
+                    <form action="" method="">
+                     <label for="name">Nombre</label>
+                     <input type="text" name="name" id="" placeholder="Name" required>
+                     <br>
+                     <label for="date">Fecha</label>
+                     <input type="date" name="date" id="">
+                     <br>
+                     <label for="email">Correo Electr&oacute;nico</label>
+                     <input type="password" name="email" id="" placeholder="correo@gmail.com" required>
+                     <br>
+                     <label for="phone">Tel&eacute;fono:</label>
+                     <input type="tel" name="phone" id="" placeholder="000-000-00-00" required>
+                      
+                     <!--Radiobuttons-->
+                     <h2>Gen&eacute;ro</h2>
+                     <fieldset style="border: none;">
+                        <input type="radio" name="list" id="one" value="One">
+                        <label for="one">Maculino</label>
+                        <br>
+                        <input type="radio" name="list" id="two" value="Two">
+                        <label for="two">Femenino</label>
+                        <br>
+                        <input type="radio" name="list" id="three" value="Three">
+                        <label for="three">Otro</label>
+                     </fieldset>
+
+                     <!--Checkbox-->
+                     <h2>Preferencias</h2>
+                     <fieldset style="border: none;">
+                        <input type="checkbox" name="music" id="">
+                        <label for="music">M&uacute;sica</label>
+                        <br>
+                        <input type="checkbox" name="sport" id="">
+                        <label for="sport">Deportes</label>
+                        <br>
+                        <input type="checkbox" name="read" id="">
+                        <label for="read">Lectura</label>
+                        <br>
+                     </fieldset>
+                    
+                     <!--Feedback-->
+                     <h2>Comentarios</h2>
+                     <textarea name="feedback" id="" cols="50" rows="10"></textarea>
+                     <br>
+
+                     <!--Button-->
+                     <button>Iniciar Sesi&oacute;n</button>
+
+                    </form>
+                 </section>  
+               </main>
+            </body>
+</html>

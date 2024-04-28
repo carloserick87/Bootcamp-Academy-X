@@ -1,0 +1,24 @@
+.position li{
+    display:inline-block;
+    margin:15px;
+    text-align: center;
+    
+
+}
+.position{
+    display: flex;
+    justify-content: center;
+}
+
+.position_one{
+    text-align:center;
+}
+
+.menu{
+    display:flex;
+    justify-content: center;
+}
+
+a{
+    margin: 10px;
+}

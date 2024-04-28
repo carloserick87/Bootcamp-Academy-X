@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Multimedia</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        </head>
+            <body>
+               <center>
+                <h1>Multimedia en HTML</h1>
+               </center>
+
+               <!--Audio Content-->
+               <h2>Audio</h2>
+               <audio controls>
+                   <source src="Resources/audio.mp3" type="audio/mpeg">
+                   <source src="Resources/audio.ogg" type="audo/ogg; codec=opus">
+                   Lo sentimos. Tu navegador no soporta este formato.
+               </audio>
+
+               <!--Video Content-->
+               <h2>Video</h2>
+               <video width="50%"  height="50%" controls>
+                   <source src="Resources/video.mp4" type="video/mp4">
+                   <source src="Resources/video.webm" type="video/webm">
+                   Tu navegador no soporta videos
+               </video>
+
+               <!--iframe Content-->
+               <h2>Iframe</h2>
+               <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xntxoEFsqfU?si=vYqc3dfDBtIUQagj&amp;start=5"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </body>
+</html>

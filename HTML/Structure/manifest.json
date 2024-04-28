@@ -1,0 +1,17 @@
+{
+    "name": "structure",
+    "short_name": "Academy X",
+    "description": "Ejemplo de una estructura de html",
+    "start_url": "structure.html",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background-color": "#fffffff",
+    "icons":[
+        {
+            "src": "favicon.ico",
+            "size": "16x16",
+            "type": "imagen/ico"
+
+        }
+    ]
+}

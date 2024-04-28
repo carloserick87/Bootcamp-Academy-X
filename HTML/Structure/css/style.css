@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.employers, .merchandise{
+    display: inline-block;
+    margin:40px;
+    width:25%;
+}
