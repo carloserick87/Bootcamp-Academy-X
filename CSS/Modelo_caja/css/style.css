@@ -1,0 +1,98 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+/*
+font-family: "Ubuntu Sans Mono", monospace;
+font-family: "Poppins", sans-serif;
+font-family: "Roboto", sans-serif;
+ */
+ 
+body{
+     background: rgb(247,49,49); 
+    
+}
+
+header{
+     display: flex;
+     justify-content: center;
+     padding:20px 0px;
+     width: 100%;
+     height: 80px;
+}
+
+header h1{
+     font-family: "Roboto", sans-serif;
+     font-size: 25px;
+     color: rgb(255,255,255);
+     width:336px;
+     height: 60px;
+     border-bottom: solid 2px #FAFEFE;
+     text-align: center;
+}
+
+main{
+     margin:10px;
+     padding:10px;
+}
+
+.merchandise{
+     background-color: rgb(255,255,255);
+     border-radius:7px;
+     padding: 10px;
+}
+
+.product_1, .product_2{
+     background-color:rgb(215,216,221);
+     border: solid 3px rgb(223,226,229);
+     border-radius:3px;
+     margin:10px;
+     padding: 10px;
+}
+
+img{
+     width:300px;
+     height:200px;
+     margin:7px;
+     border-radius:3px;
+}
+
+h2{
+     font-family:"Poppins", sans-serif;
+     font-size:22px;
+     letter-spacing:2px;
+     color: rgb(247,105,34);
+}
+
+.info{
+     margin:5px;
+     padding:10px;
+}
+
+p{
+     font-family:"Ubuntu Sans Mono", monospace;
+     font-size:15px;
+}
+
+a{
+     text-decoration:none;
+     color: rgb(43,150,214);
+}
+
+footer{
+     margin:5px;
+     padding: 5px;
+     text-align: center;
+}
+
+footer small{
+     font-family: "Roboto", sans-serif;
+     font-size: 15px;
+     font-style:italic;
+     color: rgb(255,255,255);
+}
+
+
+
+
+
+

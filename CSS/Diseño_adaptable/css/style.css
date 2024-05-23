@@ -1,0 +1,109 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&display=swap');
+
+/* Colors */
+
+header{
+    display:inline-block;
+    justify-content: center;
+    background: url(../images/backgroundProject.png) ;
+    width:100%;
+    height:75px;
+    padding:30px 0px;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+
+header h1{
+    font-family:  "Montserrat", sans-serif;
+    font-size:34px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin:8px;
+}
+
+nav{
+    margin: 0% 35%;
+    width:30%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style:none;
+    padding:5px;
+    margin:2%;
+
+}
+
+ul a{
+    text-decoration: none;
+    font-family: "Reddit Mono", monospace;
+    color:black;
+}
+
+main{
+    margin:10px;
+    padding:8px;
+    position:relative;
+    top:135px;
+}
+
+main section{
+    width: 90%;
+    margin: 0% 10%;
+ 
+}
+
+.card{
+    display: inline-block;
+    border: solid 3px rgb(241,241,241);
+    border-radius:3px;
+    width:280px;
+    height: 475px;
+    margin:15px;
+    padding: 15px;
+    box-shadow:rgb(150,150,150)10px 10px 20px 10px;
+}
+
+
+.card .content{
+    margin:12px;
+}
+
+
+img{
+    width:255px;
+    height: 300px;
+    border-radius: 4px;
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+}
+
+ p, a{
+    font-family:"Reddit Mono", monospace;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(74,136,218);
+}
+
+footer{
+    background-image: url(../images/backgroundProject.png);
+    width:100%;
+    height: 40px;
+    padding: 30px 0px;
+    position:relative;
+    text-align: center;
+}
+
+footer small{
+    font-family:"Montserrat", sans-serif;
+    
+}
+
+
