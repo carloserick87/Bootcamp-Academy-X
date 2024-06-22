@@ -1,0 +1,113 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(255,87,51);
+    width: 100%;
+    padding: 15% 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formulario{
+    background-color: rgb(237, 244, 250);
+    border-radius: 5px;
+    width: 350px;
+    height: 380px;
+    padding: 15px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+
+      img{
+       width:150px;
+       height:100px;
+     }
+}
+
+h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  margin: 5px;
+  padding: 5px;
+     span{
+        font-family: "Poppins", sans-serif;
+        font-weight: lighter;
+        font-size:18px;
+     }
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin:5px;
+    padding: 5px;
+      
+      input{
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        display:block;
+        width:12vw;
+        height: 3vh;
+        margin:10px;
+        border: none;
+      }
+
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    
+     
+      button{
+        font-family: "Caveat", cursive;
+        background-color: rgb(255,87,51);
+        margin: 10px 0px;
+        color:aliceblue;
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+        width:12vw;
+        height: 4vh;
+        cursor: pointer;
+        transition: all ease 0.5s;
+      }
+}
+
+button:hover{
+    background-color:rgb(174, 41, 12);
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding:3px;
+
+    .material-symbols-outlined{
+        padding: 8px 3px;
+        font-size: 14px;
+    }
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-size:11px;
+
+    a{
+        text-decoration: none;
+        color:rgb(60, 130, 234);
+    }
+}
+
+.errorField{
+    border-bottom: 2px solid red;
+}
+
+
